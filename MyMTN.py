@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jun  6 04:31:21 2020
-
-@author: Ajayi Raymond T
-"""
 
 from tkinter import *
 from PIL import Image,ImageTk
@@ -42,22 +36,22 @@ tool_bar2=Label(plan,bg="white",borderwidth=5,relief = "flat")
 #-----------------------------------------------
 btn_d = Button(tool_bar2,image= render_4,relief= 'flat')
 btn_d.pack(side= 'right',anchor= 'w')
-btn_1 = Button(tool_bar2,bg="white",relief= 'flat',width=40)
+btn_1 = Button(tool_bar2,bg="white",relief= 'flat')
 btn_1.pack(side= 'right',anchor= 'w')
 #----------------------------------------------
 btn_c = Button(tool_bar2,image= render_2,relief= 'flat')
 btn_c.pack(side= 'right',anchor= 'w')
-btn_2 = Button(tool_bar2,bg="white",relief= 'flat',width=40)
+btn_2 = Button(tool_bar2,bg="white",relief= 'flat')
 btn_2.pack(side= 'right',anchor= 'w')
 #----------------------------------------------
 btn_e = Button(tool_bar2,image= render_3,relief= 'flat')
 btn_e.pack(side= 'right',anchor= 'w')
-btn_3 = Button(tool_bar2,bg="white",relief= 'flat',width=40)
+btn_3 = Button(tool_bar2,bg="white",relief= 'flat')
 btn_3.pack(side= 'right',anchor= 'w')
 #---------------------------------------------------
 btn_f = Button(tool_bar2,image= render_6,relief= 'flat')
 btn_f.pack(side= 'right',anchor= 'w')
-btn_4 = Button(tool_bar2,bg="white",relief= 'flat',width=40)
+btn_4 = Button(tool_bar2,bg="white",relief= 'flat')
 btn_4.pack(side= 'right',anchor= 'w')
 #--------------------------------------------------------
 btn_g = Button(tool_bar2,image= render_5,relief= 'flat')
